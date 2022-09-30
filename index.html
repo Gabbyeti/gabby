@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./" >
+                <img src="./images/logo.svg" alt="logo" class="logo">
+            </a>
+
+            <img src="./images/icon-hamburger.svg" alt="menu" class="menu hide">
+
+            <ul class="menu-items">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#" class="btn contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>We Are Creatives</h1>
+            <img src="./images/icon-arrow-down.svg" alt="arrow" class="arrow">
+        </div>
+    </header>
+
+    <main>
+        <section class="first-section">
+            <div class="first-content">
+                <h1 class="content-title">
+                    Transfrom Your Brand
+                </h1>
+
+                <p class="content-desc">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsa alias delectus vitae aliquam, nam porro odit eaque, blanditiis, et labore fuga distinctio qui velit eius accusamus in eligendi. Rerum.
+                </p>
+
+                <a href="#" class="content-btn">Learn More</a>
+            </div>
+
+            <div class="second-content">
+                <img src="./images/desktop/image-transform.jpg" alt="">
+            </div>
+        </section>
+        <section class="second-section">
+            <div class="second-content">
+                <h1 class="content-title">
+                    Stand out to the right audience
+                </h1>
+
+                <p class="content-desc">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsa alias delectus vitae aliquam, nam porro odit eaque, blanditiis, et labore fuga distinctio qui velit eius accusamus in eligendi. Rerum.
+                </p>
+
+                <a href="#" class="content-btn">Learn More</a>
+            </div>
+
+            <div class="first-content">
+                <img src="./images/desktop/image-stand-out.jpg" alt="">
+            </div>
+        </section>
+        <section class="third-section">
+            <div class="first-content first-img">
+               <div class="text-holder">
+                <h3 class="text-title">Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste assumenda, sint nam officia labore deserunt!</p>
+               </div>
+            </div>
+
+            <div class="second-content second-img">
+                <div class="text-holder">
+                    <h3 class="text-title">Photography</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nihil animi doloremque ex nisi maxime?</p>
+                   </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIAL SECTION -->
+        <section class="fourth-section">
+            <h2>CLIENT TESTIMONIAL</h2>
+
+            <!-- First card -->
+            <div class="card">
+                <div class="card-child">
+                    <img src="./images/image-emily.jpg" alt="card-img" class="card-img">
+                    <p class="card-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eius?
+                    </p>
+                    <h3 class="class-title">
+                        Emily R.
+                    </h3>
+                    <small>Marketing Director</small>
+                </div>
+
+                <!-- second card -->
+                <div class="card-child">
+                    <img src="./images/image-thomas.jpg" alt="card-img" class="card-img">
+                    <p class="card-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eius?
+                    </p>
+                    <h3 class="class-title">
+                        Thomas S.
+                    </h3>
+                    <small>Chief operating officer</small>
+                </div>
+
+                <!-- Third card -->
+                <div class="card-child">
+                    <img src="./images/image-jennie.jpg" alt="card-img" class="card-img">
+                    <p class="card-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eius?
+                    </p>
+                    <h3 class="class-title">
+                        Jennie F.
+                    </h3>
+                    <small>Business Owner</small>
+                </div>
+            </div>
+        </section>
+        <div class="fifth-section">
+            <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="milk bottles">
+            <img src="./images/desktop/image-gallery-orange.jpg" alt="orange">
+            <img src="./images/desktop/image-gallery-cone.jpg" alt="cone">
+            <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cubes">
+        </div> 
+    </main>
+    <footer>
+        <h2 class="footer-logo">
+            sunnyside
+        </h2>
+        <ul class="footer-list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Project</a></li>
+        </ul>
+        <div class="social-links">
+            <a href="#">
+                <img src="./images/icon-facebook.svg" alt="">
+            </a>
+            <a href="#">
+                <img src="./images/icon-instagram.svg" alt="">
+            </a>
+            <a href="#">
+                <img src="./images/icon-twitter.svg" alt="">
+            </a>
+            <a href="#">
+                <img src="./images/icon-pinterest.svg" alt="">
+            </a>
+        </div>
+    </footer>
+    
+
+
+    <script>
+        let openBtn =document.querySelector( '.menu')
+        let menuItems =document.querySelector( '.menu-items');
+
+        openBtn.addEventListener('click',function(){
+            menuItems.classList.toggle('open')
+        });
+    </script>
+</body>
+</html>

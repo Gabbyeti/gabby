@@ -1,0 +1,21 @@
+@mixin flex-all-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-centered {
+    display: flex;
+    align-items: center;
+}
+
+@mixin btn ($y, $x){
+    padding:$y $x ;
+}
+
+@mixin flex-center-between(){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,43 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 1s ;
+    -webkit-transition: all 1s ;
+    -moz-transition: all 1s ;
+    -ms-transition: all 1s ;
+    -o-transition: all 1s ;
+}
+
+html{
+    font-size: 18px;
+}
+
+@font-face {
+    font-family: barlow;
+    src: url(./font/Barlow-Regular.ttf);
+}
+
+@font-face {
+    font-family:fraunces ;
+    src: url(./font/Fraunces_144pt_SuperSoft-Regular.ttf);
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+}
+
+ul li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+::selection{
+    background-color:#000;
+    color: aqua;
+}
